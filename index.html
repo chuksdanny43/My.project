@@ -1,0 +1,135 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Shanghai Oils & Gas</title>
+  <meta name="description" content="Shanghai Oils and Gas — drilling oil and importing gases. Reliable and consistent.">  <style>
+    :root{--accent:#0b6b8a;--dark:#112;--muted:#6b6b6b}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;line-height:1.5;margin:0;color:var(--dark);background:linear-gradient(180deg,#f7fbfd 0%,#eef6f9 100%)}
+    .wrap{max-width:980px;margin:32px auto;padding:24px}
+
+    header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:56px;height:56px;border-radius:10px;background:var(--accent);color:white;display:grid;place-items:center;font-weight:700}
+    h1{font-size:1.4rem;margin:0}
+    nav a{margin-left:16px;text-decoration:none;color:var(--accent);font-weight:600}
+
+    .hero{display:grid;grid-template-columns:1fr;gap:18px;background:white;padding:28px;border-radius:12px;box-shadow:0 6px 18px rgba(16,24,32,0.06);margin-top:18px}
+    .lead{font-size:1.05rem;color:#0f1720}
+    .cta{display:inline-block;margin-top:12px;padding:10px 16px;border-radius:8px;background:var(--accent);color:white;text-decoration:none;font-weight:700}
+
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:18px}
+    .card{background:white;padding:18px;border-radius:10px;box-shadow:0 6px 18px rgba(16,24,32,0.04)}
+    h2{margin:0 0 10px 0;font-size:1.05rem}
+    p{margin:0;color:var(--muted)}
+    ul{padding-left:18px;margin:8px 0}
+
+    .job{border-left:4px solid var(--accent);padding-left:12px}
+
+    footer{margin-top:22px;text-align:center;color:var(--muted);font-size:0.95rem}
+
+    /* small responsive utils */
+    @media (min-width:880px){
+      .hero{grid-template-columns:1fr 360px;align-items:center}
+    }
+  </style></head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo">SOG</div>
+        <div>
+          <h1>Shanghai Oils & Gas</h1>
+          <div style="font-size:0.9rem;color:var(--muted)">Drilling oil • Importing gases</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#jobs">Jobs</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header><main>
+  <section class="hero">
+    <div>
+      <div class="lead">We drill oils and import gases with reliability and consistency. We partner with clients to deliver energy solutions that meet industry standards.</div>
+
+      <a class="cta" href="#contact">Contact Us</a>
+
+      <div style="margin-top:18px;display:flex;gap:12px;flex-wrap:wrap">
+        <div class="card" style="flex:1;min-width:180px">
+          <h2>Fast Turnaround</h2>
+          <p>Operational teams structured to deliver consistent results on schedule.</p>
+        </div>
+
+        <div class="card" style="flex:1;min-width:180px">
+          <h2>Safety & Compliance</h2>
+          <p>We follow safety protocols and industry regulations at every stage.</p>
+        </div>
+      </div>
+    </div>
+
+    <aside class="card">
+      <h2>Quick Facts</h2>
+      <ul>
+        <li>Service: Oil drilling & gas import</li>
+        <li>Reliability: Emphasis on consistent delivery</li>
+        <li>Hiring: Looking for a programmer</li>
+      </ul>
+
+      <div style="margin-top:12px" class="job">
+        <strong>We're hiring:</strong>
+        <p style="margin-top:6px">Programmer — contact us to apply.</p>
+        <a href="#contact" style="display:inline-block;margin-top:8px;text-decoration:none;font-weight:600;color:var(--accent)">Apply now →</a>
+      </div>
+    </aside>
+  </section>
+
+  <section id="services" class="grid" style="margin-top:22px">
+    <div class="card">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Oil drilling and exploration support</li>
+        <li>Importation and distribution of industrial gases</li>
+        <li>Logistics and supply chain coordination</li>
+      </ul>
+    </div>
+
+    <div id="about" class="card">
+      <h2>About Us</h2>
+      <p>We are reliable and consistent — delivering energy products and services to clients while maintaining high standards of professionalism.</p>
+    </div>
+
+    <div class="card">
+      <h2>Why Choose Us</h2>
+      <p>Proven track record, committed staff, and transparent communication with partners and customers.</p>
+    </div>
+  </section>
+
+  <section id="jobs" class="card" style="margin-top:22px">
+    <h2>Open Position — Programmer</h2>
+    <p>We are looking for a programmer to join our team. Responsibilities may include: building internal tools, automating workflows, maintaining web presence, and supporting logistics software.</p>
+    <ul>
+      <li>Skills: basic web development (HTML/CSS/JS) preferred</li>
+      <li>Location: remote / flexible</li>
+      <li>To apply, email your CV and a short note to <a href="mailto:danielchukwuma82@gmail.com">danielchukwuma82@gmail.com</a></li>
+    </ul>
+  </section>
+
+  <section id="contact" class="card" style="margin-top:18px">
+    <h2>Contact</h2>
+    <p>For more information or inquiries, email: <a href="mailto:danielchukwuma82@gmail.com">danielchukwuma82@gmail.com</a></p>
+    <p style="margin-top:8px;color:var(--muted)">© 2025 Shanghai Oils & Gas</p>
+  </section>
+</main>
+
+<footer>
+  Built with care · Shanghai Oils & Gas
+</footer>
+
+  </div>
+</body>
+</html>
